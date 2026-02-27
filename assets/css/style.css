@@ -1,13 +1,100 @@
 body {
-    font-family: Arial;
-    background-color: #f5fdfb;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7fbfa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.top-header {
+    background: #1BD0A0;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.navbar {
+    background: #0f3d3e;
+    padding: 15px 0;
     text-align: center;
 }
 
-h1 {
+.navbar a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
     color: #1BD0A0;
 }
 
-p {
-    font-size: 18px;
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: white;
+}
+
+.primary-btn {
+    background: #1BD0A0;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.primary-btn:hover {
+    background: #17b292;
+}
+
+.two-pillars {
+    padding: 60px 0;
+    background: #eef7f5;
+}
+
+.pillars-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.pillar-card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.departments {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.dept-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dept-card {
+    background: #1BD0A0;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    min-width: 180px;
+}
+
+footer {
+    background: #0f3d3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
