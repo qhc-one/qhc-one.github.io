@@ -19,7 +19,10 @@
         <img src="logo.png" alt="Quantum Healthcare Logo">
         <span>Quantum Healthcare</span>
     </div>
-    <nav>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <nav id="navMenu">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="departments.html">Departments</a>
@@ -94,6 +97,12 @@
 </footer>
 
 <a href="https://wa.me/919199992121" class="whatsapp" target="_blank">💬</a>
+
+<script>
+function toggleMenu() {
+  document.getElementById("navMenu").classList.toggle("active");
+}
+</script>
 
 </body>
 </html>
