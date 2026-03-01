@@ -116,7 +116,7 @@ nav a:hover {
   background: #16b38a;
 }
 
-/* ===== SERVICES & CARDS ===== */
+/* ===== SECTIONS ===== */
 .services {
   padding: 60px 0;
 }
@@ -127,22 +127,44 @@ nav a:hover {
   font-size: 28px;
 }
 
+/* ===== GRID ===== */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 25px;
 }
 
+/* ===== CARD ===== */
 .card {
   background: white;
   padding: 25px;
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.05);
   transition: 0.3s ease;
+  text-align: center;
 }
 
 .card:hover {
   transform: translateY(-5px);
+}
+
+/* ===== SHREE LOGO STYLE ===== */
+.card img[alt="Shree Diagnostics Logo"] {
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ===== DOCTOR PHOTO STYLE ===== */
+.card img {
+  margin: 0 auto 15px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.03);
 }
 
 /* ===== FOOTER ===== */
@@ -183,7 +205,7 @@ footer {
     background: white;
     position: absolute;
     top: 90px;
-    right: 0;
+    right: 10px;
     width: 220px;
     padding: 15px;
     border-radius: 8px;
@@ -205,5 +227,4 @@ footer {
   .hero p {
     font-size: 15px;
   }
-
 }
