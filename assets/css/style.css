@@ -42,7 +42,7 @@ header {
 }
 
 .logo img {
-  height: 34px;
+  height: 48px;   /* Increased for readability */
   width: auto;
 }
 
@@ -171,7 +171,7 @@ footer {
     flex-direction: column;
     background: white;
     position: absolute;
-    top: 65px;
+    top: 75px;
     right: 0;
     width: 220px;
     padding: 15px;
@@ -188,7 +188,7 @@ footer {
   }
 
   .logo img {
-    height: 30px;
+    height: 40px;  /* Increased mobile size */
   }
 
   .logo span {
